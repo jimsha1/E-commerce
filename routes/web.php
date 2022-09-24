@@ -17,5 +17,5 @@ Route::get('/','HomeController@index')->name('home');
 Route::get('/home','HomeController@home')->name('home');
 Route::get('/login','HomeController@login')->name('login');
 Route::get('/about','HomeController@about')->name('about');
-Route::get('/registration','HomeController@registration')->name('registration');
-   
+Route::get('/user_registration','HomeController@user_registration')->name('user_registration');
+Route::get('/save_register','HomeController@save_register')->name('save_register');   
