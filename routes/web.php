@@ -18,4 +18,6 @@ Route::get('/home','HomeController@home')->name('home');
 Route::get('/login','HomeController@login')->name('login');
 Route::get('/about','HomeController@about')->name('about');
 Route::get('/user_registration','HomeController@user_registration')->name('user_registration');
-Route::get('/save_register','HomeController@save_register')->name('save_register');   
+Route::post('/save_register','HomeController@save_register')->name('save_register');
+Route::get('/admin_index','AdminController@admin_index')->name('admin_index');  
+Route::get('/admin_home','AdminController@admin_home')->name('admin_home'); 

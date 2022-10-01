@@ -22,38 +22,34 @@
                         <div class="login_part_form_iner">
                             <h3>Please Sign in now</h3>
                             <form class="row contact_form" action="{{Route('save_register')}}" method="post" novalidate="novalidate">
-                             @csrf  
-                            <div class="col-md-12 form-group p_star">
+                             @csrf
+                             <div class="col-md-12 form-group p_star">
                                     <input type="text" class="form-control" id="name" name="name" value=""
-                                        placeholder="your name">
+                                        placeholder="Name">
+                                </div>  
+                                <div class="col-md-12 form-group p_star">
+                                    <input type="text" class="form-control" id="email" name="email" value=""
+                                        placeholder="Email">
                                 </div>
                                 <div class="col-md-12 form-group p_star">
-                                    <input type="text" class="form-control" id="name" name="email" value=""
-                                        placeholder="your email">
-                                </div>
-                                <div class="col-md-12 form-group p_star">
-                                    <input type="text" class="form-control" id="phone_no" name="phoneno" value=""
-                                        placeholder="your contact number">
+                                    <input type="text" class="form-control" id="number" name="number" value=""
+                                        placeholder="Contact Number">
                                 </div>
                                 <div class="col-md-12 form-group p_star">
                                     <input type="text" class="form-control" id="username" name="username" value=""
-                                        placeholder="User name">
+                                        placeholder="Username">
                                 </div>
                                 <div class="col-md-12 form-group p_star">
                                     <input type="text" class="form-control" id="password" name="password" value=""
                                         placeholder="Password">
                                 </div>
-                                <div class="col-md-12 form-group p_star">
-                                    <input type="text" class="form-control" id="password" name="confirm_password" value=""
-                                        placeholder=" Confirm password">
-                                </div>
-                                <div class="col-md-12 form-group">
+                               <div class="col-md-12 form-group">
                                     <div class="creat_account d-flex align-items-center">
                                         <input type="checkbox" id="f-option" name="selector">
                                         <label for="f-option">Remember me</label>
                                     </div>
                                     <button type="submit" value="submit" name="submit" class="btn_3">
-                                        SignUp
+                                        Continue
                                     </button>
                                     <a class="lost_pass" href="#">forget password?</a>
                                 </div>

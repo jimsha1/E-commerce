@@ -34,7 +34,7 @@
                                 Please Sign in now</h3>
                             <form class="row contact_form" action="{{Route('login')}}" method="post" novalidate="novalidate">
                                 <div class="col-md-12 form-group p_star">
-                                    <input type="text" class="form-control" id="name" name="name" value=""
+                                    <input type="text" class="form-control" id="username" name="name" value=""
                                         placeholder="Username">
                                 </div>
                                 <div class="col-md-12 form-group p_star">
